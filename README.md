@@ -37,34 +37,9 @@
    
 ## AM-PM Actvity Level
    <img width="607" alt="10" src="https://github.com/user-attachments/assets/8dae8ea5-aa31-452a-823f-4ebed90ae734" />
-   
-   ## How to Run
-  Follow these steps to set up and run the project on your local machine:
-  
-  ## 1️⃣ Clone the Repository
-  
-  Open a terminal and run:
-  git clone https://github.com/noman9596/WhatsApp-Chat-Analyzer.git
-  cd WhatsApp-Chat-Analyzer
-  
-  ## 2️⃣ Create a Virtual Environment (Optional but Recommended)
-  python -m venv venv
-  
-  Activate it:
-      Windows: venv\Scripts\activate
-      
-   Mac/Linux: source venv/bin/activate
-
-  ## 3️⃣ Install Dependencies
-  pip install -r requirements.txt
-
-  ## 4️⃣ Run the Application
-  streamlit run main.py
-  
-Now, you can upload your WhatsApp chat file and start analyzing it!
 
 ## Notes
-Ensure you have Python installed (recommended version: Python 3.8+).
+Ensure you have Python installed (recommended version: Python 3.8+) and also install pycharm.
 
 The file main.py is the entry point of the project.
 
