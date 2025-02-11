@@ -38,12 +38,69 @@
 ## AM-PM Actvity Level
    <img width="607" alt="10" src="https://github.com/user-attachments/assets/8dae8ea5-aa31-452a-823f-4ebed90ae734" />
 
-## Notes
+## Note
 Ensure you have Python installed (recommended version: Python 3.8+) and also install pycharm.
 
 The file main.py is the entry point of the project.
 
 The Preprocess_data.py and Calculation.py handle data processing and analysis.
+
+## 🚀 How to Install & Run
+Follow these steps to set up and run the WhatsApp Chat Analyzer on your system.
+
+## 1. Install Python
+Make sure you have Python 3.8+ installed on your computer. If not, download and install it from python.org.
+
+## 2. Install PyCharm (Optional but Recommended)
+If you prefer an IDE, download and install PyCharm from jetbrains.com.
+
+## 3. Set Up the Project
+
+## Method 1: Using PyCharm
+
+1️⃣ Open PyCharm and create a new project.
+
+2️⃣ Copy and paste the following files into your project folder:
+
+   main.py
+   
+   Preprocess_data.py
+   
+   Calculation.py
+   
+   requirements.txt
+   
+3️⃣ Open the PyCharm terminal (bottom of the window).
+
+## Method 2: Using Command Line (Without PyCharm)
+1️⃣ Open Command Prompt (Windows) or Terminal (Mac/Linux).
+2️⃣ Navigate to the project folder where you copied the files:
+
+cd path/to/your/project
+
+## 4. Install Required Libraries
+
+In the PyCharm terminal or Command Prompt, run:
+
+pip install -r requirements.txt
+
+This will install all the necessary dependencies like Pandas, Streamlit, and Regex.
+
+## 5. Run the Application
+Once the installation is complete, start the Streamlit app by running:
+
+streamlit run main.py
+
+This will open the app in your default web browser. 🚀
+
+## 🛠️ Troubleshooting
+
+If you see ModuleNotFoundError, make sure you installed the dependencies correctly (pip install -r requirements.txt).
+
+If streamlit is not recognized, try running pip install streamlit.
+
+If using PyCharm, make sure you're running commands in the terminal inside PyCharm, not the Python console.
+
 
 
 
